@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, maximum-scale=0.5, ">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>منصّة تجمّع شباب الحوش للتّبرّعات</title>
+  <link rel="stylesheet" href="./main.css">
+  <link rel="stylesheet" href="./form.css">
+  <link rel="shortcut icon" type="image/x-icon" href="./media/logo.png" />
+</head>
+<body>
+  
+  <!--<div class="intro">-->
+  <!--  <h1 class="logo-header">-->
+  <!--    <span class="name">تجمّع</span>-->
+  <!--    <span class="name">شباب</span>-->
+  <!--    <span class="name">الحوش</span>-->
+  <!--  </h1>-->
+  <!--</div>-->
+  
+  <div class="Head">
+    <header class="header">
+      <h1 class="title">تجمع شباب الحوش</h1>
+      <img src="./media/logo.png" alt="" class="logo">
+    </header>
+  </div>
+  
+  <div class="Onlineform">
+    
+    <div class="container">
+        <div class="title">الرّجاء ملء الإستمارة</div>
+        <form action="https://formspree.io/f/xjvdvgly" method="POST">
+          
+          <div class="user-details">
+            
+            <div class="input-box">
+              <span class="details">الإسم الكريم</span>
+              <input name="الإسم" type="text" placeholder="الإسم الثلاثي" required>
+            </div>
+            <div class="input-box">
+              <span class="details">رقم الهاتف</span>
+              <input name="رقم الهاتف" type="number" placeholder="ex: xx xxx xxx" required>
+            </div>
+
+            <div class="input-box">
+              <span class="details">نوع التبرع</span>
+              <select name="نوع التبرع" type="text" placeholder="" required>
+                <option hidden disabled selected>بما ستتبرع ؟</option>
+                <option value="زيت مستعمل">زيت مستعمل</option>
+                <option value="بلاستيك">بلاستيك</option>
+                <option value="كتب">كتب</option>
+                <option value="تبرع مادي" class="">تبرع مادي</option>
+                <option value="ثياب">ثياب</option>
+              </select>
+            </div>
+          </div>
+          <div class="button">
+            <input type="submit" value="رفع الاستمارة">
+          </div>
+        </form>
+  </div>
+  
+  <div class="wa">
+    <a href="https://wa.me/+96170560518" target="_blank"><img src="media/wa.png" /></a>
+  </div>
+</body>
+</html>
